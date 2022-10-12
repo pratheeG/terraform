@@ -1,0 +1,4 @@
+fileignoreconfig:
+- filename: EC2/ec2-instance.tf
+  checksum: c82216bea2a8814cac515649ec533e16f51b2b9d07c8da7abff1f6777cedc32d
+version: ""
