@@ -33,6 +33,7 @@ output "for_output_map_index" {
 output "legacy_splat_instance" {
   description = "Legacy Splat Operator"
   value = aws_instance.ec2demo.*.public_ip
+  sensitive = true
 }
 
 output "latest_splat_instance" {

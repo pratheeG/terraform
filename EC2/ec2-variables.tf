@@ -1,9 +1,4 @@
 # Input Variables
-variable "aws_region" {
-  description = "Region in which AWS resources to be created"
-  type        = string
-  default     = "ap-south-1"
-}
 
 variable "aws_ec2_type" {
   description = "EC2 type"
@@ -14,7 +9,7 @@ variable "aws_ec2_type" {
 variable "aws_ec2_instance_count" {
   description = "EC2 Instance Count to create"
   type        = number
-  default     = 2
+  default     = 1
 }
 
 variable "ec2_ami" {
@@ -32,7 +27,7 @@ variable "ec2_ami_name" {
 variable "ec2_key_pair_name" {
   description = "Key pair assigned to instance"
   type       = string
-  default    = "ec2-test"
+  default    = "ec2_test_2"
 }
 
 variable "aws_ec2_type_list" {

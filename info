@@ -1,0 +1,16 @@
+terraform init
+terraform validate
+terraform plan
+terraform apply --target=Modules.EC2
+terraform destroy
+
+
+Concepts:
+
+Provider
+Modules
+Resource
+Data
+Variables
+Locals
+Output
